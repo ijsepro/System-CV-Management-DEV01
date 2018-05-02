@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fd35e37f-cca2-47f2-9779-cd8aa96a5c0d" name="apache web server" url="http://localhost/play">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\play" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

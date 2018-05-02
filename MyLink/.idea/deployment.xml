@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="apache web server">
+    <serverData>
+      <paths name="apache web server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="backEnd" local="$PROJECT_DIR$/backEnd" web="/backEnd" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
