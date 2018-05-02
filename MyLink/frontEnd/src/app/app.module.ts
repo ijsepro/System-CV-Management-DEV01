@@ -2,13 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AppComponent } from './app.component';
-import { NavigationComponent } from './view/navigation/navigation.component';
-import { LoginPopComponent } from './view/login-pop/login-pop.component';
-import { RegPopComponent } from './view/reg-pop/reg-pop.component';
-import { FooterComponent } from './view/footer/footer.component';
-import { MainLayoutComponent } from './view/main-layout/main-layout.component';
+import { NavigationComponent } from './view/main-page/navigation/navigation.component';
+import { LoginPopComponent } from './view/main-page/login-pop/login-pop.component';
+import { RegPopComponent } from './view/main-page/reg-pop/reg-pop.component';
+import { FooterComponent } from './view/main-page/footer/footer.component';
+import { MainLayoutComponent } from './view/main-page/main-layout/main-layout.component';
 import { SignService } from './services/sign.services';
 import {HttpModule} from "@angular/http";
+import { ContainerComponent } from './view/home-page/container/container.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import {HttpModule} from "@angular/http";
     LoginPopComponent,
     RegPopComponent,
     FooterComponent,
-    MainLayoutComponent
+    MainLayoutComponent,
+    ContainerComponent
   ],
 
   imports: [
